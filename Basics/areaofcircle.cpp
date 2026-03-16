@@ -2,10 +2,9 @@
 using namespace std;
 
 int main (){
-    float radius = 2;
-    float area = 3.1415*radius*radius;
+    float r = 4.3;
+    float area = 3.141592*r*r;
 
-    cout<<"Area of Circle is : "<<area<<endl;
-
+    cout<<"Area of a circle is : "<<area<<endl;
     return 0;
 }

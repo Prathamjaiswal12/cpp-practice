@@ -1,13 +1,16 @@
 #include<iostream>
 using namespace std;
-int main(){
+
+int main (){
     int x = 5;
     cout<<x<<endl;
-    x = 7;
+    x = 8;
     cout<<x<<endl;
-    x = x + 6; // x += 6  // x = 13
+    x = x + 2;
     cout<<x<<endl;
-    x = x - 20; //x -= 20 //x = -7
+    x = x - 8;
+    cout<<x<<endl;
+    x = x * 10;
     cout<<x<<endl;
     return 0;
 }

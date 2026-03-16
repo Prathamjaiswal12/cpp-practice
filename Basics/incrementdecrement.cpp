@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
-int main(){
+
+int main (){
     int x = 4;
     cout<<x<<endl;
-    cout<<++x<<endl; // pre - increment
+    ++x;
     cout<<x<<endl;
-    return 0;
 }
